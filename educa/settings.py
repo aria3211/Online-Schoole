@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'redisboard',
     # local apps
     'cources.apps.CourcesConfig',
-    'students.apps.StudentsConfig'
+    'students.apps.StudentsConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -78,6 +79,14 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'educa.wsgi.application'
+
+
+REST_FRAMEWORK ={
+    'DEFAULT_PERMISSION_CLASSES':[
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+
+    ]
+}
 
 
 # Database

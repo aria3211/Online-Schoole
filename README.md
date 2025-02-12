@@ -7,7 +7,4 @@ Life in school is very boring. Teachers usually keep talking on and on while stu
 **Features**
 <ul>
   <li>Login system for students and instructors to access their Cources</li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
 </ul>
